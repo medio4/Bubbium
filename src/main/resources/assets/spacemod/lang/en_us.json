@@ -4,5 +4,6 @@
   "itemGroup.spacemodTab": "The Space Mod",
   "block.spacemod.bubbium_block": "Block of Bubbium",
   "block.spacemod.bubbium_block_alt": "Block of Bubbium Plates",
-  "block.spacemod.bubbium_ore": "Bubbium Ore"
+  "block.spacemod.bubbium_ore": "Bubbium Ore",
+  "item.spacemod.bubbium_sword": "Bubbie Sword"
 }
