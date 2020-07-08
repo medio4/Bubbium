@@ -20,4 +20,4 @@
 *.patch
 /.idea/shelf/*
 /run/*
-
+/.idea/*
