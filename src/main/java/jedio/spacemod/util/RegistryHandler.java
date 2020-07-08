@@ -31,6 +31,12 @@ public class RegistryHandler {
             new SwordItem(ModItemTier.BUBBIUM, 1, -2.0f, new Item.Properties().group(SpaceMod.TAB)));
     public static final RegistryObject<PickaxeItem> BUBBIUM_PICKAXE = ITEMS.register("bubbium_pickaxe", () ->
             new PickaxeItem(ModItemTier.BUBBIUM, -1, -2.4f, new Item.Properties().group(SpaceMod.TAB)));
+    public static final RegistryObject<PickaxeItem> BUBBIUM_AXE = ITEMS.register("bubbium_axe", () ->
+            new PickaxeItem(ModItemTier.BUBBIUM, 3, -2.9f, new Item.Properties().group(SpaceMod.TAB)));
+    public static final RegistryObject<PickaxeItem> BUBBIUM_SHOVEL = ITEMS.register("bubbium_shovel", () ->
+            new PickaxeItem(ModItemTier.BUBBIUM, 0, -2.0f, new Item.Properties().group(SpaceMod.TAB)));
+    public static final RegistryObject<PickaxeItem> BUBBIUM_HOE = ITEMS.register("bubbium_hoe", () ->
+            new PickaxeItem(ModItemTier.BUBBIUM, -5, -0.0f, new Item.Properties().group(SpaceMod.TAB)));
 
     public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, SpaceMod.MODID);
     // Blocks
