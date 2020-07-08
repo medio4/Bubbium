@@ -10,14 +10,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
         //todo
-        // add these tools:
-        // - pickaxe
-        // - axe
-        // - shovel
-        // - hoe
-
+        // -
         //fixme
-        //
+        // -
 
 
 @Mod("spacemod")
