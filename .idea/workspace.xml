@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d5d9ff4-1f18-4f49-9764-0e3e433356f5" name="Default Changelist" comment="workspace.xml update">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/spacemod/recipes/bubbium_block.json" afterDir="false" />
-    </list>
+    <list default="true" id="9d5d9ff4-1f18-4f49-9764-0e3e433356f5" name="Default Changelist" comment="added crafting recipe for ingot, block; added smelting recipe for ingot" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594177680100</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added crafting recipe for ingot, block; added smelting recipe for ingot">
+      <created>1594181514497</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594181514497</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,7 +259,8 @@
     <MESSAGE value="regular workspace.xml update" />
     <MESSAGE value=".gitignore update" />
     <MESSAGE value="workspace.xml update" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml update" />
+    <MESSAGE value="added crafting recipe for ingot, block; added smelting recipe for ingot" />
+    <option name="LAST_COMMIT_MESSAGE" value="added crafting recipe for ingot, block; added smelting recipe for ingot" />
   </component>
   <component name="WindowStateProjectService">
     <state x="704" y="215" key="#Images" timestamp="1594148607427">
@@ -345,5 +351,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-2560.0.1707.933/0.0.1920.1040@0.0.1920.1040" timestamp="1594165019264" />
+    <state x="382" y="270" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1594181460389">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="382" y="270" key="vcs.ApplyPatchDifferentiatedDialog/-2560.0.1707.933/0.0.1920.1040@0.0.1920.1040" timestamp="1594181460389" />
   </component>
 </project>
