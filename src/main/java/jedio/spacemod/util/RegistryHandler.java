@@ -8,10 +8,7 @@ import jedio.spacemod.items.ItemBase;
 import jedio.spacemod.items.TestingItem;
 import jedio.spacemod.tools.ModItemTier;
 import net.minecraft.block.Block;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -31,7 +28,9 @@ public class RegistryHandler {
 
     // Tools
     public static final RegistryObject<SwordItem> BUBBIUM_SWORD = ITEMS.register("bubbium_sword", () ->
-            new SwordItem(ModItemTier.BUBBIUM, 1, -2.0f, new Item.Properties().group(SpaceMod.TAB).group(ItemGroup.COMBAT)));
+            new SwordItem(ModItemTier.BUBBIUM, 1, -2.0f, new Item.Properties().group(SpaceMod.TAB)));
+    public static final RegistryObject<PickaxeItem> BUBBIUM_PICKAXE = ITEMS.register("bubbium_pickaxe", () ->
+            new PickaxeItem(ModItemTier.BUBBIUM, -1, -2.4f, new Item.Properties().group(SpaceMod.TAB)));
 
     public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, SpaceMod.MODID);
     // Blocks
