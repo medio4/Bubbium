@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "spacemod:items/bubbium_shovels"
+    "layer0": "spacemod:items/bubbium_shovel"
   }
 }
