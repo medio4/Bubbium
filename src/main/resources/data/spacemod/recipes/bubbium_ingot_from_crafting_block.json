@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "spacemod:bubbium_block"
+    }
+  ],
+  "result":
+  {
+    "item": "spacemod:bubbium_ingot"
+  }
+}
