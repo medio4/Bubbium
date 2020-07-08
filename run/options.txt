@@ -1,5 +1,5 @@
 version:2230
-autoJump:true
+autoJump:false
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -20,15 +20,15 @@ toggleCrouch:false
 toggleSprint:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:0.0
+gamma:1.0
 renderDistance:12
 guiScale:0
 particles:0
-maxFps:120
+maxFps:260
 difficulty:2
 fancyGraphics:true
 ao:2
-biomeBlendRadius:2
+biomeBlendRadius:0
 renderClouds:true
 resourcePacks:["vanilla","mod_resources"]
 incompatibleResourcePacks:[]
@@ -91,8 +91,8 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-soundCategory_master:0.0
-soundCategory_music:1.0
+soundCategory_master:0.44536424
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "spacemod:blocks/bubbium_block_alt"
+  }
+}

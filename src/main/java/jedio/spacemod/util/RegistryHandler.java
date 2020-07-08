@@ -3,6 +3,7 @@ package jedio.spacemod.util;
 import jedio.spacemod.SpaceMod;
 import jedio.spacemod.blocks.BlockItemBase;
 import jedio.spacemod.blocks.BubbiumBlock;
+import jedio.spacemod.blocks.BubbiumOre;
 import jedio.spacemod.items.ItemBase;
 import jedio.spacemod.items.TestingItem;
 import net.minecraft.block.Block;
@@ -28,7 +29,11 @@ public class RegistryHandler {
     public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, SpaceMod.MODID);
     // Blocks
     public static final RegistryObject<Block> BUBBIUM_BLOCK = BLOCKS.register("bubbium_block", BubbiumBlock::new);
+    public static final RegistryObject<Block> BUBBIUM_BLOCK_ALT = BLOCKS.register("bubbium_block_alt", BubbiumBlock::new);
+    public static final RegistryObject<Block> BUBBIUM_ORE = BLOCKS.register("bubbium_ore", BubbiumOre::new);
     // Block Items
     public static final RegistryObject<Item> BUBBIUM_BLOCK_ITEM = ITEMS.register("bubbium_block", () -> new BlockItemBase(BUBBIUM_BLOCK.get()));
+    public static final RegistryObject<Item> BUBBIUM_BLOCK_ALT_ITEM = ITEMS.register("bubbium_block_alt", () -> new BlockItemBase(BUBBIUM_BLOCK_ALT.get()));
+    public static final RegistryObject<Item> BUBBIUM_ORE_ITEM = ITEMS.register("bubbium_ore", () -> new BlockItemBase(BUBBIUM_ORE.get()));
 
 }
