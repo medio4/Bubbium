@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d5d9ff4-1f18-4f49-9764-0e3e433356f5" name="Default Changelist" comment=".gitignore update" />
+    <list default="true" id="9d5d9ff4-1f18-4f49-9764-0e3e433356f5" name="Default Changelist" comment="workspace.xml update">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/spacemod/recipes/bubbium_block.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +83,7 @@
       <recent name="C:\Users\jgc41\Desktop\SpaceMod\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jgc41\Desktop\SpaceMod\src\main\resources\data\spacemod" />
       <recent name="C:\Users\jgc41\Desktop\SpaceMod\src\main\resources\assets\spacemod\textures\items" />
       <recent name="C:\Users\jgc41\Desktop\SpaceMod\src\main\resources\META-INF" />
     </key>
@@ -219,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594177547642</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="workspace.xml update">
+      <created>1594177680100</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1594177680100</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,7 +253,8 @@
     <MESSAGE value="Logs" />
     <MESSAGE value="regular workspace.xml update" />
     <MESSAGE value=".gitignore update" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore update" />
+    <MESSAGE value="workspace.xml update" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="704" y="215" key="#Images" timestamp="1594148607427">
