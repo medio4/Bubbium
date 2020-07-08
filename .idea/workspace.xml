@@ -10,8 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d5d9ff4-1f18-4f49-9764-0e3e433356f5" name="Default Changelist" comment="added item&amp;blockstates json">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9d5d9ff4-1f18-4f49-9764-0e3e433356f5" name="Default Changelist" comment="added .gitignore and updated workspace.xml">
       <change afterPath="$PROJECT_DIR$/src/main/java/jedio/spacemod/blocks/BubbiumOre.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/spacemod/blockstates/bubbium_block_alt.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/spacemod/blockstates/bubbium_ore.json" afterDir="false" />
@@ -33,7 +32,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/jedio/spacemod/util/RegistryHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jedio/spacemod/util/RegistryHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/assets/spacemod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/spacemod/lang/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/assets/spacemod/textures/blocks/bubbium_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/spacemod/textures/blocks/bubbium_block.png" afterDir="false" />
@@ -250,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594168968469</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added .gitignore and updated workspace.xml">
+      <created>1594177138721</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594177138721</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,7 +274,8 @@
     <MESSAGE value="# Changelog&#10;All notable changes to this project will be documented in this file.&#10;&#10;The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),&#10;and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).&#10;&#10;## [Unreleased]&#10;_tba_&#10;&#10;## [1.0.0] - 2020-07-07&#10;#### first commit&#10;### Added [10,720 files]&#10;- Original unversioned fileset&#10;- bubbium block, ingot&#10;- test item (unfinished)&#10;- creative tab&#10;- mods.toml&#10;- pack.mcmeta&#10;- textures for each item &amp; block" />
     <MESSAGE value="# Changelog&#10;All notable changes to this project will be documented in this file.&#10;&#10;The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),&#10;and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).&#10;&#10;## [Unreleased]&#10;_tba_&#10;&#10;## [1.0.0] - 2020-07-07&#10;#### first commit&#10;### Added &#10;- Original unversioned fileset&#10;- bubbium block, ingot&#10;- test item (unfinished)&#10;- creative tab&#10;- mods.toml&#10;- pack.mcmeta&#10;- textures for each item &amp; block&#10;(10,720 files were added)" />
     <MESSAGE value="added item&amp;blockstates json" />
-    <option name="LAST_COMMIT_MESSAGE" value="added item&amp;blockstates json" />
+    <MESSAGE value="added .gitignore and updated workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="added .gitignore and updated workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="704" y="215" key="#Images" timestamp="1594148607427">
@@ -292,10 +298,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="799" y="428" key="#VCS_History_Cache_Settings/-2560.0.1707.933/0.0.1920.1040@0.0.1920.1040" timestamp="1594050467406" />
-    <state x="741" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594155481284">
+    <state x="741" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594177225636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="741" y="321" key="#com.intellij.fileTypes.FileTypeChooser/-2560.0.1707.933/0.0.1920.1040@0.0.1920.1040" timestamp="1594155481284" />
+    <state x="741" y="321" key="#com.intellij.fileTypes.FileTypeChooser/-2560.0.1707.933/0.0.1920.1040@0.0.1920.1040" timestamp="1594177225636" />
     <state x="779" y="210" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1594089331143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -328,6 +334,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/-2560.0.1707.933/0.0.1920.1040@0.0.1920.1040" timestamp="1594101166145" />
+    <state x="814" y="434" key="VCS.EditChangelistDialog" timestamp="1594177101345">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="814" y="434" key="VCS.EditChangelistDialog/-2560.0.1707.933/0.0.1920.1040@0.0.1920.1040" timestamp="1594177101345" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594167832732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
