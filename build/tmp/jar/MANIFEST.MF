@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: spacemod
-Specification-Vendor: jediospacemod
-Specification-Version: 1
-Implementation-Title: SpaceMod
-Implementation-Version: 1.0
-Implementation-Vendor: jediospacemod
-Implementation-Timestamp: 2020-07-07T02:11:15-0400
-
