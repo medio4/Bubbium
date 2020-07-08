@@ -24,3 +24,5 @@
 *.xml
 /.idea/
 /.idea/shelf/Logs/*
+/build/
+/build/*
