@@ -25,6 +25,7 @@ public class RegistryHandler {
     // Items
     public static final RegistryObject<Item> BUBBIUM_INGOT = ITEMS.register("bubbium_ingot", ItemBase::new);
     public static final RegistryObject<Item> BUBBIUM_DUST = ITEMS.register("bubbium_dust", ItemBase::new);
+    public static final RegistryObject<Item> BUBBIUM_NUGGET = ITEMS.register("bubbium_nugget", ItemBase::new);
     public static final RegistryObject<Item> ADVANCED_ITEM_TEST = ITEMS.register("test_item", ItemBase::new);
 
     // Tools
