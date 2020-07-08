@@ -5,5 +5,10 @@
   "block.spacemod.bubbium_block": "Block of Bubbium",
   "block.spacemod.bubbium_block_alt": "Block of Bubbium Plates",
   "block.spacemod.bubbium_ore": "Bubbium Ore",
-  "item.spacemod.bubbium_sword": "Bubbie Sword"
+  "item.spacemod.bubbium_sword": "Bubbie Sword",
+  "item.spacemod.bubbium_pickaxe": "Bubbium Pickaxe",
+  "item.spacemod.bubbium_axe": "Bubbium Axe",
+  "item.spacemod.bubbium_shovel": "Bubbium Shovel",
+  "item.spacemod.bubbium_hoe": "Bubbium Hoe",
+  "item.spacemod.bubbium_shears": "Bubbium Shears"
 }
