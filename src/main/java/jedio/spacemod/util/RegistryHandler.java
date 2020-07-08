@@ -36,7 +36,7 @@ public class RegistryHandler {
     public static final RegistryObject<ShovelItem> BUBBIUM_SHOVEL = ITEMS.register("bubbium_shovel", () ->
             new ShovelItem(ModItemTier.BUBBIUM, 0, -2.0f, new Item.Properties().group(SpaceMod.TAB)));
     public static final RegistryObject<HoeItem> BUBBIUM_HOE = ITEMS.register("bubbium_hoe", () ->
-            new HoeItem(ModItemTier.BUBBIUM, -0.0f, new Item.Properties().group(SpaceMod.TAB)));
+            new HoeItem(ModItemTier.BUBBIUM, 0.0f, new Item.Properties().group(SpaceMod.TAB)));
     public static final RegistryObject<ShearsItem> BUBBIUM_SHEARS = ITEMS.register("bubbium_shears", () ->
             new ShearsItem(new Item.Properties().group(SpaceMod.TAB)));
 
