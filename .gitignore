@@ -29,3 +29,6 @@
 /.gradle/
 /.gradle/*
 /.gradle/4.10.3/*
+.DS_Store
+.gradle/
+.gradle/*
