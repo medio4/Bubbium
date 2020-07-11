@@ -1,7 +1,8 @@
-# SpaceMod
+# Bubbium
 
 minecraft forge mod made for 1.15.2
 	
-	let's see what's out there
+	for use with The Space Mod
 
-_see changelog.md for some info_
+this adds a new ore and toolset called Bubbium
+Bubbium acts as a mod that simply adds those objects, but is a required element of The Space Mod, which relies on Bubbium items for many recipes
