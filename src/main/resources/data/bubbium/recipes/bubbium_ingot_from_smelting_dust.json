@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "bubbium:bubbium_dust"
+  },
+  "result": "bubbium:bubbium_ingot",
+  "experience": 0.0,
+  "cookingtime": 100
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "bubbium:bubbium_ingot"
+    }
+  },
+  "result": {
+    "item": "bubbium:bubbium_block",
+    "count": 1
+  }
+}

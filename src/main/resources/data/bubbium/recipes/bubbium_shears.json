@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bubbium:bubbium_ingot"
+    },
+    {
+      "item": "bubbium:bubbium_ingot"
+    }
+  ],
+  "result": {
+    "item": "bubbium:bubbium_shears"
+  }
+}

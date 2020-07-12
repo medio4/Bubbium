@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx ",
+    "x x",
+    " xx"
+  ],
+  "key": {
+    "x": {
+      "item": "bubbium:bubbium_plate"
+    }
+  },
+  "result": {
+    "item": "bubbium:bubbium_block_alt",
+    "count": 1
+  }
+}
