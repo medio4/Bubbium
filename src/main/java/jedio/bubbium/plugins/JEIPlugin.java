@@ -1,4 +1,4 @@
-package jedio.bubbium.api;
+package jedio.bubbium.plugins;
 
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
