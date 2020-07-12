@@ -4,6 +4,7 @@ import jedio.bubbium.Bubbium;
 import jedio.bubbium.blocks.BlockItemBase;
 import jedio.bubbium.blocks.BubbiumBlock;
 import jedio.bubbium.blocks.BubbiumOre;
+import jedio.bubbium.items.Hammer;
 import jedio.bubbium.items.ItemBase;
 import jedio.bubbium.tools.ModItemTier;
 import net.minecraft.block.Block;
@@ -26,7 +27,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> BUBBIUM_DUST = ITEMS.register("bubbium_dust", ItemBase::new);
     public static final RegistryObject<Item> BUBBIUM_NUGGET = ITEMS.register("bubbium_nugget", ItemBase::new);
     public static final RegistryObject<Item> BUBBIUM_PLATE = ITEMS.register("bubbium_plate", ItemBase::new);
-    public static final RegistryObject<Item> HAMMER = ITEMS.register("hammer", ItemBase::new);
+    public static final RegistryObject<Item> HAMMER = ITEMS.register("hammer", Hammer::new);
     public static final RegistryObject<Item> ADVANCED_ITEM_TEST = ITEMS.register("test_item", ItemBase::new);
     // Tools
     public static final RegistryObject<SwordItem> BUBBIUM_SWORD = ITEMS.register("bubbium_sword", () ->
