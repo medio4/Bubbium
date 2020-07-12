@@ -1,17 +1,26 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "xx ",
-    "x x",
-    " xx"
-  ],
-  "key": {
-    "x": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bubbium:bubbium_plate"
+    },
+    {
+      "item": "bubbium:bubbium_plate"
+    },
+    {
+      "item": "bubbium:bubbium_plate"
+    },
+    {
+      "item": "bubbium:bubbium_plate"
+    },
+    {
+      "item": "bubbium:bubbium_plate"
+    },
+    {
       "item": "bubbium:bubbium_plate"
     }
-  },
+  ],
   "result": {
-    "item": "bubbium:bubbium_block_alt",
-    "count": 1
+    "item": "bubbium:bubbium_block_alt"
   }
 }
