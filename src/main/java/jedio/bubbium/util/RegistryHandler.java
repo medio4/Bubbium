@@ -4,6 +4,7 @@ import jedio.bubbium.Bubbium;
 import jedio.bubbium.blocks.BlockItemBase;
 import jedio.bubbium.blocks.BubbiumBlock;
 import jedio.bubbium.blocks.BubbiumOre;
+import jedio.bubbium.items.BucketItem;
 import jedio.bubbium.items.Hammer;
 import jedio.bubbium.items.ItemBase;
 import jedio.bubbium.tools.ModItemTier;
@@ -30,6 +31,8 @@ public class RegistryHandler {
     public static final RegistryObject<Item> BUBBIUM_PLATE = ITEMS.register("bubbium_plate", ItemBase::new);
     public static final RegistryObject<Item> HAMMER = ITEMS.register("hammer", Hammer::new);
     public static final RegistryObject<Item> ADVANCED_ITEM_TEST = ITEMS.register("test_item", ItemBase::new);
+
+    // public static final RegistryObject<Item> BUCKET = ITEMS.register("bucket", BucketItem::new);
     // Tools
     public static final RegistryObject<SwordItem> BUBBIUM_SWORD = ITEMS.register("bubbium_sword", () ->
             new SwordItem(ModItemTier.BUBBIUM, 1, -2.0f, new Item.Properties().group(Bubbium.TAB)));
