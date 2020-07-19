@@ -7,14 +7,14 @@
   ],
   "key": {
     "x": {
-      "item": "bubbium:bubbium_ingot"
+      "item": "minecraft:iron_ingot"
     },
     "s": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "bubbium:hammer",
+    "item": "bubbium:iron_hammer",
     "count": 1
   }
 }

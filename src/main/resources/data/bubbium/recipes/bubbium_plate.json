@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "bubbium:hammer"
+      "item": "bubbium:iron_hammer"
     },
     {
       "item": "bubbium:bubbium_ingot"

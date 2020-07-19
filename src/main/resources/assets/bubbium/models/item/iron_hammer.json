@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "bubbium:items/hammer"
+    "layer0": "bubbium:items/iron_hammer"
   }
 }
