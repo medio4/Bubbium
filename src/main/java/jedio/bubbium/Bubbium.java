@@ -23,6 +23,13 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.stream.Collectors;
 
+// TODO:
+//      add other hammers
+//      add block drops for hammers
+//      jei integration
+//      begin work on The Space Mod
+
+
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Bubbium.MOD_ID)
 public class Bubbium {
@@ -49,7 +56,9 @@ public class Bubbium {
         // Register the doClientStuff method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
-        RegistryHandler.init();
+        ItemRegistryHandler.init();
+        BlockRegistryHandler.init();
+        EntityRegistryHandler.init();
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
