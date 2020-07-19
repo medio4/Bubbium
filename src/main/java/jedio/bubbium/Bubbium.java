@@ -33,7 +33,7 @@ public class Bubbium {
     public static final ItemGroup TAB = new ItemGroup("bubbiumTab") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.BUBBIUM_INGOT.get());
+            return new ItemStack(ItemRegistryHandler.BUBBIUM_INGOT.get());
         }
     };
 
