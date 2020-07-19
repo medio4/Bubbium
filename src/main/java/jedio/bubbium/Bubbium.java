@@ -1,13 +1,15 @@
 package jedio.bubbium;
 
-import jedio.bubbium.util.RegistryHandler;
-import jedio.bubbium.world.gen.ModOreGenHandler;
+import jedio.bubbium.util.BlockRegistryHandler;
+import jedio.bubbium.util.EntityRegistryHandler;
+import jedio.bubbium.util.ItemRegistryHandler;
+import static jedio.bubbium.util.ItemRegistryHandler.IRON_HAMMER;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.entity.player.PlayerEvent.ItemCraftedEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fluids.FluidUtil;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
