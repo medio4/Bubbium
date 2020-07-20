@@ -42,7 +42,7 @@ import java.util.stream.Collectors;
 public class Bubbium {
 
     // Directly reference a log4j logger.
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public static final String MOD_ID = "bubbium";
 
