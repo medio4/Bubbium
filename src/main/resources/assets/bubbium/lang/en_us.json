@@ -14,5 +14,7 @@
   "item.bubbium.bubbium_dust": "Bubbium Dust",
   "item.bubbium.bubbium_nugget": "Bubbium Nugget",
   "item.bubbium.bubbium_plate": "Bubbium Plate",
-  "item.bubbium.iron_hammer": "Iron Hammer"
+  "item.bubbium.iron_hammer": "Iron Hammer",
+  "item.bubbium.diamond_hammer": "Diamond Hammer",
+  "entity.bubbium.bubbium_golem": "Bubbium Golem"
 }
