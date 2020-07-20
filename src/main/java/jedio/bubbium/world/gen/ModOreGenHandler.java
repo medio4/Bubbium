@@ -1,8 +1,7 @@
 package jedio.bubbium.world.gen;
 
 import jedio.bubbium.Bubbium;
-import jedio.bubbium.util.BlockRegistryHandler;
-import jedio.bubbium.util.ItemRegistryHandler;
+import jedio.bubbium.init.ModBlocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage;
@@ -24,7 +23,7 @@ public class ModOreGenHandler {
             GenOres(biome, 9, 7, 5, 20,
                     // count=rarity,bO=minimum y val, max-tO=max y val, size=orevein size
                     OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                    BlockRegistryHandler.BUBBIUM_ORE.get().getDefaultState(), 6);
+                    ModBlocks.BUBBIUM_ORE.get().getDefaultState(), 6);
         }
     }
 
