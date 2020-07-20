@@ -73,6 +73,20 @@ public class Bubbium {
         MinecraftForge.EVENT_BUS.register(this);
     }
 
+    /**
+     * Checks if a Carved Pumpkin was placed and, if so, attempts to spawn a golem
+     * at that location where enabled by the config.
+     **/
+    @SubscribeEvent
+    public void onPlacePumpkin(final BlockEvent.EntityPlaceEvent event) {
+        // if the config allows it, and the block is a CARVED pumpkin...
+        if (!event.isCanceled() && event.getPlacedBlock().getBlock() == Blocks.CARVED_PUMPKIN
+                && event.getWorld() instanceof World) {
+            // try to spawn a golem!
+            CarvedPumpkinOverride.trySpawnGolem((World) event.getWorld(), event.getPos());
+        }
+    }
+
     private void setup(final FMLCommonSetupEvent event) {
         // some preinit code
         LOGGER.info("HELLO FROM PREINIT");
