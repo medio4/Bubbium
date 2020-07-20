@@ -1,6 +1,6 @@
 package jedio.bubbium.tools;
 
-import jedio.bubbium.util.ItemRegistryHandler;
+import jedio.bubbium.init.ModItems;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 
@@ -9,7 +9,7 @@ import java.util.function.Supplier;
 public enum ModItemTier implements IItemTier {
 
     BUBBIUM(3, 1087, 8.0f, 5, 14, () -> {
-        return Ingredient.fromItems(ItemRegistryHandler.BUBBIUM_SWORD.get());
+        return Ingredient.fromItems(ModItems.BUBBIUM_SWORD.get());
     });
 
     private final int harvestLevel;
