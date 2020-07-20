@@ -24,9 +24,10 @@ import org.apache.logging.log4j.Logger;
 import java.util.stream.Collectors;
 
 // TODO:
-//      add other hammers
-//      add block drops for hammers
 //      jei integration
+//      add block drops for hammers
+//      add golem ai
+//      give golems cool job
 //      begin work on The Space Mod
 
 
