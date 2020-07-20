@@ -49,7 +49,7 @@ public class Bubbium {
     public static final ItemGroup TAB = new ItemGroup("bubbiumTab") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ItemRegistryHandler.BUBBIUM_INGOT.get());
+            return new ItemStack(ModItems.BUBBIUM_INGOT.get());
         }
     };
 
@@ -63,9 +63,11 @@ public class Bubbium {
         // Register the doClientStuff method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
-        ItemRegistryHandler.init();
-        BlockRegistryHandler.init();
-        EntityRegistryHandler.init();
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::onPlacePumpkin);
+
+        ModItems.init();
+        ModBlocks.init();
+        ModEntityTypes.init();
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
