@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bubbium:bubbium_block_alt"
+    }
+  ],
+  "result": {
+    "item": "bubbium:bubbium_plate",
+    "count": 6
+  }
+}
