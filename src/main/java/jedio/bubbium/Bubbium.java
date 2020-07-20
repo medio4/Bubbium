@@ -119,4 +119,9 @@ public class Bubbium {
         // do something when the server starts
         LOGGER.info("HELLO from server starting");
     }
+
+    public static ResourceLocation location(String name)
+    {
+        return new ResourceLocation(MOD_ID, name);
+    }
 }
