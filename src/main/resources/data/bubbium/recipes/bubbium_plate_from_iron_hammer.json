@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bubbium:iron_hammer"
+    },
+    {
+      "item": "bubbium:bubbium_ingot"
+    }
+  ],
+  "result": {
+    "item": "bubbium:bubbium_plate"
+  }
+}
