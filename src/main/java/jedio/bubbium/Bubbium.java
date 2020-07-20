@@ -101,6 +101,8 @@ public class Bubbium {
 
     private void enqueueIMC(final InterModEnqueueEvent event) {
         // some example code to dispatch IMC to another mod
+        GlobalEntityTypeAttributes.put(ModEntityTypes.BUBBIUM_GOLEM.get(), MobEntity.func_233666_p_().func_233813_a_());
+
         InterModComms.sendTo("bubbium", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
     }
 
