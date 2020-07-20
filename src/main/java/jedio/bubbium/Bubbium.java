@@ -1,14 +1,19 @@
 package jedio.bubbium;
 
-import jedio.bubbium.util.BlockRegistryHandler;
-import jedio.bubbium.util.EntityRegistryHandler;
-import jedio.bubbium.util.ItemRegistryHandler;
-import static jedio.bubbium.util.ItemRegistryHandler.IRON_HAMMER;
+import jedio.bubbium.blocks.CarvedPumpkinOverride;
+import jedio.bubbium.client.renderer.entity.BubbiumGolemRenderer;
+import jedio.bubbium.init.ModBlocks;
+import jedio.bubbium.init.ModEntityTypes;
+import jedio.bubbium.init.ModItems;
 import net.minecraft.block.Blocks;
+import net.minecraft.entity.MobEntity;
+import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.world.World;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.entity.player.PlayerEvent.ItemCraftedEvent;
+import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
